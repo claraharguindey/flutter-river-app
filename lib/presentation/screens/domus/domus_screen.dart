@@ -8,7 +8,7 @@ class DomusScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('RiverApp'),
+        title: const Text('Clara app'),
         centerTitle: true,
       ),
       body: _DomusScreenVisum(),
@@ -22,8 +22,8 @@ class _DomusScreenVisum extends StatelessWidget {
     return ListView(
       children: const [
         _AdaptaListTitle(titulus: "State provider", subtitulus: "Un estado simple", locus: "/state-provider",),
-        _AdaptaListTitle(titulus: "Future provider", subtitulus: "Un simple future + family", locus: "/future-provider",)
-
+        _AdaptaListTitle(titulus: "Future provider", subtitulus: "Un simple future + family", locus: "/future-provider",),
+        _AdaptaListTitle(titulus: "Stream provider", subtitulus: "Un simple stream", locus: "/stream-provider",)
       ],
     );
   }

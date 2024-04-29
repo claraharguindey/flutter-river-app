@@ -8,7 +8,7 @@ class PokemonProviderScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final pokemonId = ref.watch(pokemonIdProvider);
-    final pokemonAsync = ref.watch(pokemonNomenProvider(pokemonId));
+    final pokemonAsync = ref.watch(pokemonNomenProvider);
     return Scaffold(
       appBar: AppBar(title: Text("Pokemon $pokemonId")),
       body: Center(
