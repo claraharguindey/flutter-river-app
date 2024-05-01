@@ -23,7 +23,8 @@ class _DomusScreenVisum extends StatelessWidget {
       children: const [
         _AdaptaListTitle(titulus: "State provider", subtitulus: "Un estado simple", locus: "/state-provider",),
         _AdaptaListTitle(titulus: "Future provider", subtitulus: "Un simple future + family", locus: "/future-provider",),
-        _AdaptaListTitle(titulus: "Stream provider", subtitulus: "Un simple stream", locus: "/stream-provider",)
+        _AdaptaListTitle(titulus: "Stream provider", subtitulus: "Un simple stream", locus: "/stream-provider",),
+        _AdaptaListTitle(titulus: "State notifier provider", subtitulus: "Un simple stream", locus: "/state-notifier-provider",)
       ],
     );
   }

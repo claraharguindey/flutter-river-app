@@ -35,7 +35,7 @@ class PokemonProviderScreen extends ConsumerWidget {
               child: const Icon(Icons.exposure_minus_1_outlined),
               onPressed: () {
                 ref.read(pokemonIdProvider.notifier).update(
-                  (state) => state > 0 ? state - 1 : state
+                  (state) => state > 1 ? state - 1 : state
                 );
               }),
         ],
